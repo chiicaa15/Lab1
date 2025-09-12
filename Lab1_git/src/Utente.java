@@ -55,6 +55,11 @@ public class Utente {
 	public void setPeso(int peso) {
 		this.peso = peso;
 	}
+
+	@Override
+	public String toString() {
+		return "Utente [getIdade()=" + getIdade() + ", getAltura()=" + getAltura() + ", getPeso()=" + getPeso() + "]";
+	}
 	
 	
 }
