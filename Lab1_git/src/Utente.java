@@ -66,6 +66,6 @@ public class Utente {
 	}
 	public void imprimirIMC() {
 		int a =30;
-		System.out.println(a);
+		System.out.println("a");
 	}
 }
