@@ -60,8 +60,11 @@ public class Utente {
 	public String toString() {
 		return "Utente [getIdade()=" + getIdade() + ", getAltura()=" + getAltura() + ", getPeso()=" + getPeso() + "]";
 	}
-	public void calcularIMC(int peso,int altura) {
+	public int calcularIMC(int peso,int altura) {
 		int imc=peso/(altura*altura);
-		System.out.println(imc);
+		return imc;
+	}
+	public void imprimirIMC() {
+		System.out.println("imc:");
 	}
 }
